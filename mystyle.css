@@ -1,0 +1,13 @@
+body{background-image: url(myBackground.png);
+    background-size: cover;
+    height: 100vh;
+    background-position: center;}
+h1{color: blue;}
+#content {width: 800px;
+margin: auto;}
+#image_of_me{
+    float: right;
+}
+#photo_of_me{
+    float: right;
+}
