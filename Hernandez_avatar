@@ -1,0 +1,774 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1"/><link rel="preload" as="image" href="../../../images/avatars/cs-hopper-cool.png"/><link rel="preload" as="image" href="../../../images/avatars/marcimus.png"/><link rel="preload" as="image" href="../../../images/avatars/mr-pants.png"/><link rel="preload" as="image" href="../../../images/avatars/mr-pink.png"/><link rel="preload" as="image" href="../../../images/avatars/old-spice-man.png"/><link rel="preload" as="image" href="../../../images/avatars/orange-juice-squid.png"/><link rel="preload" as="image" href="../../../images/avatars/purple-pi.png"/><link rel="preload" as="image" href="../../../images/avatars/robot_female_1.png"/><link rel="preload" as="image" href="../../../images/avatars/robot_male_1.png"/><link rel="preload" as="image" href="../../../images/avatars/spunky-sam.png"/><link rel="stylesheet" href="/_next/static/css/7e6e61792cb862c1.css" data-precedence="next"/><link rel="stylesheet" href="/_next/static/css/a8e754ce85962fa5.css" data-precedence="next"/><link rel="preload" as="script" fetchPriority="low" href="/_next/static/chunks/webpack-adb68c23852e178f.js"/><script src="/_next/static/chunks/fd9d1056-d4ceeef0cc731fad.js" async=""></script><script src="/_next/static/chunks/23-08c0035dcaf31bb5.js" async=""></script><script src="/_next/static/chunks/main-app-f9a1d4e8e65f8b84.js" async=""></script><script src="/_next/static/chunks/479-dc76c5e3a922bb72.js" async=""></script><script src="/_next/static/chunks/230-de6b5f63f4871ccc.js" async=""></script><script src="/_next/static/chunks/328-0405c0400fd3f0bf.js" async=""></script><script src="/_next/static/chunks/296-15581b99845975e6.js" async=""></script><script src="/_next/static/chunks/app/layout-87822a99973887e0.js" async=""></script><script src="/_next/static/chunks/53c13509-8ab34b474813b25f.js" async=""></script><script src="/_next/static/chunks/363642f4-5d2917c87af282bd.js" async=""></script><script src="/_next/static/chunks/231-5191473dc77ac7c0.js" async=""></script><script src="/_next/static/chunks/682-ce3782fd5e3ed47f.js" async=""></script><script src="/_next/static/chunks/841-91c8a0f824bae3f4.js" async=""></script><script src="/_next/static/chunks/app/program/%5Bprogram_id%5D/page-e7043e3a8c29fec6.js" async=""></script><link rel="preload" as="image" href="../../../images/cute/CharacterBoy.png"/><link rel="preload" as="image" href="../../../images/cute/CharacterHornGirl.png"/><link rel="preload" as="image" href="../../../images/cute/CharacterCatGirl.png"/><link rel="preload" as="image" href="../../../images/cute/GemBlue.png"/><link rel="preload" as="image" href="../../../images/cute/GemGreen.png"/><link rel="preload" as="image" href="../../../images/cute/GemOrange.png"/><link rel="preload" as="image" href="../../../images/cute/GrassBlock.png"/><link rel="preload" as="image" href="../../../images/cute/Key.png"/><title>CodeLab</title><meta name="description" content="Javascript Programming Environment"/><meta name="next-size-adjust"/><script data-mantine-script="true">try {
+  var _colorScheme = window.localStorage.getItem("mantine-color-scheme-value");
+  var colorScheme = _colorScheme === "light" || _colorScheme === "dark" || _colorScheme === "auto" ? _colorScheme : "light";
+  var computedColorScheme = colorScheme !== "auto" ? colorScheme : window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+  document.documentElement.setAttribute("data-mantine-color-scheme", computedColorScheme);
+} catch (e) {}
+</script><script src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js" noModule=""></script></head><body class="__className_36bd41"> <style data-mantine-styles="classes">@media (max-width: 35.99375em) {.mantine-visible-from-xs {display: none !important;}}@media (min-width: 36em) {.mantine-hidden-from-xs {display: none !important;}}@media (max-width: 47.99375em) {.mantine-visible-from-sm {display: none !important;}}@media (min-width: 48em) {.mantine-hidden-from-sm {display: none !important;}}@media (max-width: 61.99375em) {.mantine-visible-from-md {display: none !important;}}@media (min-width: 62em) {.mantine-hidden-from-md {display: none !important;}}@media (max-width: 74.99375em) {.mantine-visible-from-lg {display: none !important;}}@media (min-width: 75em) {.mantine-hidden-from-lg {display: none !important;}}@media (max-width: 87.99375em) {.mantine-visible-from-xl {display: none !important;}}@media (min-width: 88em) {.mantine-hidden-from-xl {display: none !important;}}</style><main class=""><nav class="bg-gray-800 fixed top-0 left-0 w-full z-10"><div class="md:hidden xl:hidden bg-red-500 text-white"><p>CodeLab is not currently supported on mobile devices or small screens.</p></div><div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex items-center justify-between h-16"><div class="flex items-center"><div class="mr-4"><a class="text-white font-bold text-xl" href="../../../">CodeLab</a></div><div class=""><a href="/lessons"><span class="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium ">Lessons</span></a></div><div class=""><a href="/projects"><span class="cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-gray-700">My Projects</span></a></div></div><div class="sm:hidden"><div class="ml-4 flex justify-between items-baseline space-x-4"><p class="text-white">Signed in as <b>Adrian Hernandez</b></p><a href="../../../../../api/users/signout" class="text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium">Logout</a></div></div></div></div></nav><div class="mb-[64px]"></div><main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8"><div class="flex text-3xl font-bold pt-5 text-center justify-center cursor-pointer"><h2 class="mr-2">Hernandez_avatar</h2><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" class="text-2xl " height="1em" width="1em" xmlns="http://www.w3.org/2000/svg"><path d="M410.3 231l11.3-11.3-33.9-33.9-62.1-62.1L291.7 89.8l-11.3 11.3-22.6 22.6L58.6 322.9c-10.4 10.4-18 23.3-22.2 37.4L1 480.7c-2.5 8.4-.2 17.5 6.1 23.7s15.3 8.5 23.7 6.1l120.3-35.4c14.1-4.2 27-11.8 37.4-22.2L387.7 253.7 410.3 231zM160 399.4l-9.1 22.7c-4 3.1-8.5 5.4-13.3 6.9L59.4 452l23-78.1c1.4-4.9 3.8-9.4 6.9-13.3l22.7-9.1v32c0 8.8 7.2 16 16 16h32zM362.7 18.7L348.3 33.2 325.7 55.8 314.3 67.1l33.9 33.9 62.1 62.1 33.9 33.9 11.3-11.3 22.6-22.6 14.5-14.5c25-25 25-65.5 0-90.5L453.3 18.7c-25-25-65.5-25-90.5 0zm-47.4 168l-144 144c-6.2 6.2-16.4 6.2-22.6 0s-6.2-16.4 0-22.6l144-144c6.2-6.2 16.4-6.2 22.6 0s6.2 16.4 0 22.6z"></path></svg></div><div class="flex justify-center"><div class="cm-theme-light w-[100%] min-w-[400px] active:border-none text-sm"></div><div class="min-w-[400px] max-w-[400px] min-h-[400px] max-h-[400px] bg-gray-200 animate-pulse">Running code...</div><iframe srcDoc="&lt;html&gt;
+    &lt;head&gt;
+        &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.0/p5.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script
+            src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jshint/2.13.6/jshint.min.js&quot;
+            integrity=&quot;sha512-MCUpdWtSMK1rm+4sWFpfFuz4UTpXEud5p236Otyw1Ea4kdVyNxy+eMHR76u7xfY5DlpDmOzgEhgDq1ZGLHqkCA==&quot;
+            crossorigin=&quot;anonymous&quot;
+            referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://cdn.jsdelivr.net/npm/esprima@4.0.1/dist/esprima.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://unpkg.com/@babel/standalone&quot;&gt;&lt;/script&gt;
+        &lt;style&gt;
+            /* CSS Reset */
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            canvas-container {
+                display: block;
+                top: 0; left: 0px; width: 100vw; height: 100vh;
+            }
+
+            #console-area {
+                position: absolute;
+                bottom: 0;
+                right: 0;
+                height: 20%;
+                width: 100%;
+                overflow-y: scroll;
+                background: #000;
+                color: #fff;
+                padding: 0px;
+                border-top: 5px solid #738094;
+                display: none;
+            }
+
+            #console-content {
+                color: white;
+                font-family: monospace;
+                padding: 5px;
+            }
+
+            #close-console {
+                position: absolute;
+                color: white;
+                top: 0;
+                right: 0;
+                background: #738094;
+                padding: 5px;
+                cursor: pointer;
+            }
+        &lt;/style&gt;
+        &lt;script src=&quot;../../P5-runner.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;div id=&quot;console-area&quot;&gt;
+            &lt;div id=&quot;close-console&quot; onclick=&quot;$(&#x27;#console-area&#x27;).hide();&quot;&gt;X&lt;/div&gt;
+            &lt;div id=&quot;console-content&quot;&gt;&lt;/div&gt;
+        &lt;/div&gt;
+        &lt;script&gt;
+
+            let imageCache = {};
+            const getImage = function(path){
+                path = &quot;../../images/&quot; + path + &quot;.png&quot;;
+                if (!imageCache[path]) {
+                    imageCache[path] = loadImage(path);
+                }
+                
+                return imageCache[path];
+            }
+          
+          const println = (message, color = &quot;white&quot;) =&gt; {
+            console.log(message);
+            if(typeof message === &#x27;object&#x27;) message = JSON.stringify(message, null, 2);
+            window.parent.postMessage({event: &quot;console&quot;, content: message}, &#x27;*&#x27;);
+            $(&quot;#console-content&quot;).append(&#x27;&lt;span style=&quot;color:&#x27; + color + &#x27;&quot;&gt;&#x27; + message + &quot;&lt;/span&gt;&lt;br&gt;&quot;);
+            $(&#x27;#console-area&#x27;).show()
+          };
+
+            const httpGet = (() =&gt; {
+                const cache = {};  // Initialize an empty object to act as the cache
+
+                return (url) =&gt; {
+                    // Check if the result for this URL is already in the cache
+                    if (cache[url]) {
+                        console.log(&#x27;Returning cached data&#x27;);
+                        return cache[url];
+                    }
+
+                    const request = new XMLHttpRequest();
+
+                    // Open a synchronous GET request
+                    request.open(&#x27;GET&#x27;, url, false);
+
+                    // Send the request
+                    request.send(null);
+
+                    // Check if the request was successful
+                    if (request.status === 200) {
+                        // Store the response in the cache
+                        cache[url] = request.responseText;
+                        return request.responseText;  // The body content
+                    } else {
+                        return &#x27;Request failed: &#x27; + request.status;
+                    }
+                };
+            })();
+
+          
+            function setup() {
+                createCanvas(400, 400);
+
+                p5._friendlyError = function (message, source, lineno, colno, error) {
+                    println(message.replace(&quot;about:srcdoc, &quot;, &quot;&quot;), &quot;red&quot;);
+                    
+                    // Return true to prevent the browser from displaying the error in the console
+                    return true;
+                };
+
+            }
+
+
+
+            
+    const workerBlob = new Blob([`
+var CENTER = &quot;&quot;;
+var LEFT = &quot;&quot;
+var RIGHT = &quot;&quot;;
+var TOP = &quot;&quot;;
+var BOTTOM = &quot;&quot;;
+var BASELINE = &quot;&quot;;
+var UP = &quot;&quot;;
+var DOWN = &quot;&quot;;
+var LEFT_ARROW = &quot;&quot;;
+var RIGHT_ARROW = &quot;&quot;;
+var UP_ARROW = &quot;&quot;;
+var DOWN_ARROW = &quot;&quot;;
+var textWidth = function() {};
+var createVector = function(x, y) { return {x, y}};
+var rect = function() {}; 
+var ellipse = function() {};
+var imageMode = function() {};
+var rectMode = function() {};
+var textLeading = 5;
+var frameCount = 0;
+var textAscent = 5;
+var textDescent = 5;
+var keyIsPressed = false;
+var keyIsDown = function() {};
+var draw = function() {};
+var color = function() {};
+var cos = function() {};
+var sin = function() {};
+var tan = function() {};
+var acos = function() {};
+var asin = function() {};
+var atan = function() {};
+var atan2 = function() {};
+var triangle = function() {};
+var line = function() {};
+var point = function() {};
+var arc = function() {};
+var bezier = function() {};
+var quad = function() {};
+var println = function() {};
+var print = function() {};
+var beginShape = function() {};
+var endShape = function() {};
+var curveVertex = function() {};
+var bezierVertex = function() {};
+var background = function() {};
+var fill = function() {};
+var stroke = function() {};
+var strokeWeight = function() {};
+var noFill = function() {};
+var noStroke = function() {};
+var textSize = function() {};
+var text = function() {};
+var textAlign = function() {};
+var createCanvas = function() {};
+var createGraphics = function() {};
+var loadImage = function() {};
+var image = function() {};
+var random = function() {};
+var randomSeed = function() {};
+var noise = function() {};
+var noiseSeed = function() {};
+var frameRate = function() {};
+var loop = function() {};
+var noLoop = function() {};
+var redraw = function() {};
+var width = 400;
+var height = 400;
+var mouseX = 0;
+var mouseY = 0;
+var round = function() {};
+var rotate = function() {};
+var scale = function() {};
+var translate = function() {};
+var mouseIsPressed = false;
+var mouseClicked = function() {};
+var mouseReleased = function() {};
+var mouseDragged = function() {};
+var mouseOut = function() {};
+var mousePressed = function() {};
+var mouseMoved = function() {};
+var mouseOver = function() {};
+var key = &#x27;&#x27;;
+var keyCode = 0;
+var keyIsPressed = false;
+var keyPressed = function() {};
+var keyReleased = function() {};
+var keyTyped = function() {};
+var millis = function() {};
+var constrain = function() {};
+var getImage = function() {};
+var radians = function() {};
+var year = function() {};
+var years = function() {};
+var day = function() {};
+var month = function() {};
+var hour = function() {};
+var minute = function() {};
+var second = function() {};
+var PVector = function() {};
+var ceil = function() {};
+var floor = function() {};
+var sq = function() {};
+var log = function() {};
+var max = function() {};
+var constrain = function() {};
+var random = function() {};
+var dist = function() {};
+var min = function() {};
+var abs = function() {};
+var pow = function() {};
+var push = function() {};
+var keyIsPressed = function() {};
+var keyReleased = function() {};
+var keyTyped = function() {};
+var CENTER = 0;
+var LEFT = 0;
+var RIGHT = 0;
+var TOP = 0;
+var BOTTOM = 0;
+var HALF_PI = 0;
+var PI = 0;
+var QUARTER_PI = 0;
+var TAU = 0;
+var TWO_PI = 0;
+var DEGREES = 0;
+var RADIANS = 0;
+
+function httpGet(url) {
+    return true;
+}
+;
+
+        self.onmessage = function(e) {
+            const ProgramStartTime = Date.now();
+            const timeout = e.data.timeout || 5000; // Default timeout of 5 seconds
+
+            try {
+                eval(e.data.code);
+                eval(&#x27;draw();mouseClicked();mouseReleased();mouseDragged();mouseOut();mousePressed();mouseMoved();mouseOver();&#x27;)
+
+                if (Date.now() - ProgramStartTime &gt; timeout) {
+                    throw new Error(&quot;Potential infinite loop detected&quot;);
+                }
+
+                self.postMessage({ status: &quot;success&quot;, result: &quot;Code executed successfully&quot; });
+            } catch (err) {
+                self.postMessage({ status: &quot;error&quot;, message: err.message });
+            }
+        };
+`], { type: &#x27;application/javascript&#x27; });
+            const workerURL = URL.createObjectURL(workerBlob);
+            const worker = new Worker(workerURL);
+            let timeoutId;
+            let draw_was_used_for_injections = false;
+
+            window.addEventListener(&#x27;message&#x27;, function(event) {
+                // Check the origin of the message
+                // if (event.origin !== &#x27;https://parentdomain.com&#x27;) return; // TODO: Replace with the actual domain from process.env
+              
+                if(event.data === &#x27;reload&#x27;) {
+                    window.location.reload();
+                    return;
+                }
+
+
+
+                // Handle the message
+                $(&quot;#console-content&quot;).html(&#x27;&#x27;);
+                $(&#x27;#console-area&#x27;).hide();
+                try {
+
+                    // Check the code for errors
+                    clearTimeout(timeoutId); // Clear the timeout if it exists
+                    worker.postMessage({ code: event.data, timeout: 1000 });
+                
+                    // Set a timeout to terminate the worker after 5 seconds
+                    const timeout = 1000; 
+                    timeoutId = setTimeout(() =&gt; {
+                        worker.terminate();
+                        console.error(&quot;Worker terminated due to timeout&quot;);
+                        $(&quot;#console-content&quot;).html(&#x27;&#x27;);
+                        println(&quot;It looks like your code is taking too long to run. Do you have an infinite loop?&quot;, &quot;red&quot;);
+                    }, timeout);
+            
+                    // Handle messages from the worker
+                    worker.onmessage = function(e) {
+                        console.log(&quot;Worker message:&quot;);
+                        if(e.data.status === &quot;error&quot;) {
+                            println(e.data.message + &quot;&lt;br /&gt;&quot;, &quot;red&quot;);
+                        }
+                        clearTimeout(timeoutId); // Clear the timeout if the worker finishes before the timeout
+                        while(typeof background === typeof undefined) { } // Wait for the background function to be defined (p5.js specific)
+                        background(255, 255, 255);
+
+                        eval.call(window, event.data);
+
+                        if(event.data.includes(&#x27;image&#x27;)) {
+                            // eval.call(window, &quot;draw = function() {&quot; + event.data + &quot;}&quot;);
+                            setTimeout(() =&gt; {
+                                eval.call(window, event.data);
+                            }, 500);
+                            // draw_was_used_for_injections = true;
+                        }
+                    };
+            
+                    // Handle worker errors
+                    worker.onerror = function(e) {
+                        clearTimeout(timeoutId); // Clear the timeout on error
+
+                        console.error(&quot;Worker error:&quot;, e.message);
+                        println(&quot;Error: &quot; + e.message, &quot;red&quot;);
+                    };
+
+                    return;
+
+                    if(event.data.includes(&#x27;draw&#x27;) || event.data.includes(&#x27;function&#x27;)) {
+                        // Draw function detected, inject code 
+                        render_student_code(event.data);
+                    }else {
+                        background(255, 255, 255);
+                        eval.call(window, event.data);
+                    }
+                } catch (e) {
+                    println(e.message, &quot;red&quot;);
+                }
+              }, false);
+        &lt;/script&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;" sandbox="allow-scripts" class="min-w-[400px] max-w-[400px] min-h-[400px] max-h-[400px] border-2 border-gray-300 hidden"></iframe><iframe srcDoc="&lt;html&gt;
+    &lt;head&gt;
+        &lt;script src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js&quot;&gt;&lt;/script&gt;
+        &lt;script
+            src=&quot;https://cdnjs.cloudflare.com/ajax/libs/jshint/2.13.6/jshint.min.js&quot;
+            integrity=&quot;sha512-MCUpdWtSMK1rm+4sWFpfFuz4UTpXEud5p236Otyw1Ea4kdVyNxy+eMHR76u7xfY5DlpDmOzgEhgDq1ZGLHqkCA==&quot;
+            crossorigin=&quot;anonymous&quot;
+            referrerpolicy=&quot;no-referrer&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://cdn.jsdelivr.net/npm/esprima@4.0.1/dist/esprima.js&quot;&gt;&lt;/script&gt;
+        &lt;script src=&quot;https://unpkg.com/@babel/standalone&quot;&gt;&lt;/script&gt;
+        &lt;style&gt;
+            /* CSS Reset */
+            body {
+                margin: 0;
+                padding: 0;
+                overflow: hidden;
+            }
+            canvas-container {
+                display: block;
+                top: 0; left: 0px; width: 100vw; height: 100vh;
+            }
+        &lt;/style&gt;
+        &lt;script src=&quot;../../P5-runner.js&quot;&gt;&lt;/script&gt;
+    &lt;/head&gt;
+    &lt;body&gt;
+        &lt;script&gt;
+
+            
+var CENTER = &quot;&quot;;
+var LEFT = &quot;&quot;
+var RIGHT = &quot;&quot;;
+var TOP = &quot;&quot;;
+var BOTTOM = &quot;&quot;;
+var BASELINE = &quot;&quot;;
+var UP = &quot;&quot;;
+var DOWN = &quot;&quot;;
+var LEFT_ARROW = &quot;&quot;;
+var RIGHT_ARROW = &quot;&quot;;
+var UP_ARROW = &quot;&quot;;
+var DOWN_ARROW = &quot;&quot;;
+var textWidth = function() {};
+var createVector = function(x, y) { return {x, y}};
+var rect = function() {}; 
+var ellipse = function() {};
+var imageMode = function() {};
+var rectMode = function() {};
+var textLeading = 5;
+var frameCount = 0;
+var textAscent = 5;
+var textDescent = 5;
+var keyIsPressed = false;
+var keyIsDown = function() {};
+var draw = function() {};
+var color = function() {};
+var cos = function() {};
+var sin = function() {};
+var tan = function() {};
+var acos = function() {};
+var asin = function() {};
+var atan = function() {};
+var atan2 = function() {};
+var triangle = function() {};
+var line = function() {};
+var point = function() {};
+var arc = function() {};
+var bezier = function() {};
+var quad = function() {};
+var println = function() {};
+var print = function() {};
+var beginShape = function() {};
+var endShape = function() {};
+var curveVertex = function() {};
+var bezierVertex = function() {};
+var background = function() {};
+var fill = function() {};
+var stroke = function() {};
+var strokeWeight = function() {};
+var noFill = function() {};
+var noStroke = function() {};
+var textSize = function() {};
+var text = function() {};
+var textAlign = function() {};
+var createCanvas = function() {};
+var createGraphics = function() {};
+var loadImage = function() {};
+var image = function() {};
+var random = function() {};
+var randomSeed = function() {};
+var noise = function() {};
+var noiseSeed = function() {};
+var frameRate = function() {};
+var loop = function() {};
+var noLoop = function() {};
+var redraw = function() {};
+var width = 400;
+var height = 400;
+var mouseX = 0;
+var mouseY = 0;
+var round = function() {};
+var rotate = function() {};
+var scale = function() {};
+var translate = function() {};
+var mouseIsPressed = false;
+var mouseClicked = function() {};
+var mouseReleased = function() {};
+var mouseDragged = function() {};
+var mouseOut = function() {};
+var mousePressed = function() {};
+var mouseMoved = function() {};
+var mouseOver = function() {};
+var key = &#x27;&#x27;;
+var keyCode = 0;
+var keyIsPressed = false;
+var keyPressed = function() {};
+var keyReleased = function() {};
+var keyTyped = function() {};
+var millis = function() {};
+var constrain = function() {};
+var getImage = function() {};
+var radians = function() {};
+var year = function() {};
+var years = function() {};
+var day = function() {};
+var month = function() {};
+var hour = function() {};
+var minute = function() {};
+var second = function() {};
+var PVector = function() {};
+var ceil = function() {};
+var floor = function() {};
+var sq = function() {};
+var log = function() {};
+var max = function() {};
+var constrain = function() {};
+var random = function() {};
+var dist = function() {};
+var min = function() {};
+var abs = function() {};
+var pow = function() {};
+var push = function() {};
+var keyIsPressed = function() {};
+var keyReleased = function() {};
+var keyTyped = function() {};
+var CENTER = 0;
+var LEFT = 0;
+var RIGHT = 0;
+var TOP = 0;
+var BOTTOM = 0;
+var HALF_PI = 0;
+var PI = 0;
+var QUARTER_PI = 0;
+var TAU = 0;
+var TWO_PI = 0;
+var DEGREES = 0;
+var RADIANS = 0;
+
+function httpGet(url) {
+    return true;
+}
+;
+
+            var post_grade_to_parent = function(data) {
+                console.log(&quot;Grade posted to parent:&quot;, data);
+                window.parent.postMessage(data, &#x27;*&#x27;);
+            }
+
+            function setup() {
+                createCanvas(400, 400);
+            }
+
+            var student_code;
+
+            ;
+
+            
+    const workerBlob = new Blob([`
+var CENTER = &quot;&quot;;
+var LEFT = &quot;&quot;
+var RIGHT = &quot;&quot;;
+var TOP = &quot;&quot;;
+var BOTTOM = &quot;&quot;;
+var BASELINE = &quot;&quot;;
+var UP = &quot;&quot;;
+var DOWN = &quot;&quot;;
+var LEFT_ARROW = &quot;&quot;;
+var RIGHT_ARROW = &quot;&quot;;
+var UP_ARROW = &quot;&quot;;
+var DOWN_ARROW = &quot;&quot;;
+var textWidth = function() {};
+var createVector = function(x, y) { return {x, y}};
+var rect = function() {}; 
+var ellipse = function() {};
+var imageMode = function() {};
+var rectMode = function() {};
+var textLeading = 5;
+var frameCount = 0;
+var textAscent = 5;
+var textDescent = 5;
+var keyIsPressed = false;
+var keyIsDown = function() {};
+var draw = function() {};
+var color = function() {};
+var cos = function() {};
+var sin = function() {};
+var tan = function() {};
+var acos = function() {};
+var asin = function() {};
+var atan = function() {};
+var atan2 = function() {};
+var triangle = function() {};
+var line = function() {};
+var point = function() {};
+var arc = function() {};
+var bezier = function() {};
+var quad = function() {};
+var println = function() {};
+var print = function() {};
+var beginShape = function() {};
+var endShape = function() {};
+var curveVertex = function() {};
+var bezierVertex = function() {};
+var background = function() {};
+var fill = function() {};
+var stroke = function() {};
+var strokeWeight = function() {};
+var noFill = function() {};
+var noStroke = function() {};
+var textSize = function() {};
+var text = function() {};
+var textAlign = function() {};
+var createCanvas = function() {};
+var createGraphics = function() {};
+var loadImage = function() {};
+var image = function() {};
+var random = function() {};
+var randomSeed = function() {};
+var noise = function() {};
+var noiseSeed = function() {};
+var frameRate = function() {};
+var loop = function() {};
+var noLoop = function() {};
+var redraw = function() {};
+var width = 400;
+var height = 400;
+var mouseX = 0;
+var mouseY = 0;
+var round = function() {};
+var rotate = function() {};
+var scale = function() {};
+var translate = function() {};
+var mouseIsPressed = false;
+var mouseClicked = function() {};
+var mouseReleased = function() {};
+var mouseDragged = function() {};
+var mouseOut = function() {};
+var mousePressed = function() {};
+var mouseMoved = function() {};
+var mouseOver = function() {};
+var key = &#x27;&#x27;;
+var keyCode = 0;
+var keyIsPressed = false;
+var keyPressed = function() {};
+var keyReleased = function() {};
+var keyTyped = function() {};
+var millis = function() {};
+var constrain = function() {};
+var getImage = function() {};
+var radians = function() {};
+var year = function() {};
+var years = function() {};
+var day = function() {};
+var month = function() {};
+var hour = function() {};
+var minute = function() {};
+var second = function() {};
+var PVector = function() {};
+var ceil = function() {};
+var floor = function() {};
+var sq = function() {};
+var log = function() {};
+var max = function() {};
+var constrain = function() {};
+var random = function() {};
+var dist = function() {};
+var min = function() {};
+var abs = function() {};
+var pow = function() {};
+var push = function() {};
+var keyIsPressed = function() {};
+var keyReleased = function() {};
+var keyTyped = function() {};
+var CENTER = 0;
+var LEFT = 0;
+var RIGHT = 0;
+var TOP = 0;
+var BOTTOM = 0;
+var HALF_PI = 0;
+var PI = 0;
+var QUARTER_PI = 0;
+var TAU = 0;
+var TWO_PI = 0;
+var DEGREES = 0;
+var RADIANS = 0;
+
+function httpGet(url) {
+    return true;
+}
+;
+
+        self.onmessage = function(e) {
+            const ProgramStartTime = Date.now();
+            const timeout = e.data.timeout || 5000; // Default timeout of 5 seconds
+
+            try {
+                eval(e.data.code);
+                eval(&#x27;draw();mouseClicked();mouseReleased();mouseDragged();mouseOut();mousePressed();mouseMoved();mouseOver();&#x27;)
+
+                if (Date.now() - ProgramStartTime &gt; timeout) {
+                    throw new Error(&quot;Potential infinite loop detected&quot;);
+                }
+
+                self.postMessage({ status: &quot;success&quot;, result: &quot;Code executed successfully&quot; });
+            } catch (err) {
+                self.postMessage({ status: &quot;error&quot;, message: err.message });
+            }
+        };
+`], { type: &#x27;application/javascript&#x27; });;
+            const workerURL = URL.createObjectURL(workerBlob);
+            const worker = new Worker(workerURL);
+            let timeoutId;
+            
+            window.addEventListener(&#x27;message&#x27;, function(event) {    
+                
+                if(event.data === &#x27;reload&#x27;) {
+                    window.location.reload();
+                    return;
+                }
+
+                student_code = event.data.code;
+
+                // Check the code for errors
+                clearTimeout(timeoutId); // Clear the timeout if it exists
+                worker.postMessage({ code: student_code, timeout: 1000 });
+            
+                // Set a timeout to terminate the worker after 5 seconds
+                const timeout = 1000; 
+                timeoutId = setTimeout(() =&gt; {
+                    worker.terminate();
+                    console.error(&quot;Worker terminated due to timeout&quot;);
+                    post_grade_to_parent({
+                        score: 0,
+                        max_score: 0,
+                        message: [&quot;Your code took too long to run. Make sure you&#x27;re not creating an infinite loop!&quot;],
+                    });
+                }, timeout);
+        
+                // Handle messages from the worker
+                worker.onmessage = function(e) {
+                    console.log(&quot;Worker message autograder:&quot;, e.data);
+                    clearTimeout(timeoutId); // Clear the timeout if the worker finishes before the timeout
+
+                        // Triggered when the score button is pressed on the parent window, trigger injection of the autograding code
+                        console.log(&#x27;Scoring program...&#x27;);
+                        console.log(&#x27;Running payload&#x27;);
+                        console.log(student_code)
+                        try {
+                            runInGlobalScope(student_code);
+                            console.log(student_code);
+                        } catch (error) {
+                            // Code to handle the error
+                            post_grade_to_parent({
+                                score: 0,
+                                max_score: 5,
+                                message: [&quot;Your code has an error: &quot; + error],
+                            });
+                        }
+        
+                        console.log(&#x27;Running post-payload&#x27;);
+                        try {
+                            // Code that may throw an error
+                            POSTPAYLOAD();
+                        } catch (error) {
+                            // Code to handle the error
+                            console.log(error)
+                            post_grade_to_parent({
+                                score: 0,
+                                max_score: 5,
+                                message: [&quot;It looks like you have an error in your code: &quot; + error],
+                            });
+                        } 
+
+                };
+        
+                // Handle worker errors
+                worker.onerror = function(e) {
+                    clearTimeout(timeoutId); // Clear the timeout on error
+
+                    console.error(&quot;Worker error:&quot;, e.message);
+                    println(&quot;Loop audit error: &quot; + e.message, &quot;red&quot;);
+                };
+
+                
+
+              }, false);
+        &lt;/script&gt;
+
+    &lt;/body&gt;
+&lt;/html&gt;" sandbox="allow-scripts" class="hidden"></iframe></div><div class="flex justify-start space-x-2 mt-5 items-baseline"><div class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded max-w-64 text-center cursor-pointer border-gray border-1">Save<!-- --> </div><a href="../../../api/program/d5f61397-cc4f-4d66-b367-ddf9c4a0f09a/duplicate"><div class="bg-green-600 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded max-w-64 text-center cursor-pointer border-gray border-1">Duplicate<!-- --> </div></a><div class="bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded max-w-64 text-center cursor-pointer border-gray border-1">Run<!-- --> <span style="--loader-size:calc(0.9375rem * var(--mantine-scale));--loader-color:var(--mantine-color-orange-filled)" class="m_b34414df m_5ae2e3c mantine-Loader-root"></span></div><div class="text-sm text-gray-500">Last saved <!-- -->1 day(s) ago</div></div></main><div class="mx-auto max-w-6xl justify-center items-center my-5"><div style="--tabs-radius:var(--mantine-radius-default);--tabs-color:var(--mantine-color-blue-filled)" class="m_89d60db1 mantine-Tabs-root" data-variant="outline" data-orientation="horizontal" id="mantine-Rsvffeja"><div style="--tabs-justify:center" class="m_6772fbd5 m_89d33d6d mantine-Tabs-list" data-variant="outline" data-orientation="horizontal" role="tablist" aria-orientation="horizontal"><button class="mantine-focus-auto m_b59ab47c m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root" data-variant="outline" data-active="true" data-orientation="horizontal" type="button" role="tab" id="mantine-Rsvffeja-tab-docs" aria-selected="true" tabindex="0" aria-controls="mantine-Rsvffeja-panel-docs"><span class="mantine-Tabs-tabLabel">Documentation</span></button><button class="mantine-focus-auto m_b59ab47c m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root" data-variant="outline" data-orientation="horizontal" type="button" role="tab" id="mantine-Rsvffeja-tab-colors" aria-selected="false" tabindex="-1" aria-controls="mantine-Rsvffeja-panel-colors"><span class="mantine-Tabs-tabLabel">Colors</span></button><button class="mantine-focus-auto m_b59ab47c m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root" data-variant="outline" data-orientation="horizontal" type="button" role="tab" id="mantine-Rsvffeja-tab-images" aria-selected="false" tabindex="-1" aria-controls="mantine-Rsvffeja-panel-images"><span class="mantine-Tabs-tabLabel">Images</span></button><button class="mantine-focus-auto m_b59ab47c m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root" data-variant="outline" data-orientation="horizontal" type="button" role="tab" id="mantine-Rsvffeja-tab-help" aria-selected="false" tabindex="-1" aria-controls="mantine-Rsvffeja-panel-help"><span class="mantine-Tabs-tabLabel">AI Tutor</span></button><button class="mantine-focus-auto m_b59ab47c m_4ec4dce6 mantine-Tabs-tab m_87cf2631 mantine-UnstyledButton-root" data-variant="outline" data-orientation="horizontal" type="button" role="tab" id="mantine-Rsvffeja-tab-share" aria-selected="false" tabindex="-1" aria-controls="mantine-Rsvffeja-panel-share"><span class="mantine-Tabs-tabLabel">Share &amp; Embed</span></button></div><div class="m_b0c91715 mantine-Tabs-panel" data-orientation="horizontal" role="tabpanel" id="mantine-Rsvffeja-panel-docs" aria-labelledby="mantine-Rsvffeja-tab-docs"><div id="Documentation" class="mx-auto max-w-7xl justify-center items-center"><div class="mx-10"><div class="py-4 p-4"><h2 class="text-2xl font-bold">Shapes</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">rect<!-- -->(<!-- -->x<!-- -->, <!-- -->y<!-- -->, <!-- -->w<!-- -->, <!-- -->h<!-- -->);</span><div class="text-xs">Draws a rectangle, using the first two coordinates as the top left corner and the last two as the width/height</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">ellipse<!-- -->(<!-- -->x<!-- -->, <!-- -->y<!-- -->, <!-- -->w<!-- -->, <!-- -->h<!-- -->);</span><div class="text-xs">Draws an ellipse, using the first two parameters as the center coordinates and the last two as the width/height</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">triangle<!-- -->(<!-- -->x1<!-- -->, <!-- -->y1<!-- -->, <!-- -->x2<!-- -->, <!-- -->y2<!-- -->, <!-- -->x3<!-- -->, <!-- -->y3<!-- -->);</span><div class="text-xs">Draws an triangle between three points</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">line<!-- -->(<!-- -->x1<!-- -->, <!-- -->y1<!-- -->, <!-- -->x2<!-- -->, <!-- -->y2<!-- -->);</span><div class="text-xs">Draws a line between two points</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">point<!-- -->(<!-- -->x<!-- -->, <!-- -->y<!-- -->);</span><div class="text-xs">Draws a point at the given coordinates</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">arc<!-- -->(<!-- -->x<!-- -->, <!-- -->y<!-- -->, <!-- -->w<!-- -->, <!-- -->h<!-- -->, <!-- -->start<!-- -->, <!-- -->stop<!-- -->);</span><div class="text-xs">Draws an arc between two angles</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">bezier<!-- -->(<!-- -->x1<!-- -->, <!-- -->y1<!-- -->, <!-- -->cx1<!-- -->, <!-- -->cy1<!-- -->, <!-- -->cx2<!-- -->, <!-- -->cy2<!-- -->, <!-- -->x2<!-- -->, <!-- -->y2<!-- -->);</span><div class="text-xs">Draws a bezier curve between two points. To extract points and tangents after drawing the curve, use bezierPoint() and bezierTangent()</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">quad<!-- -->(<!-- -->x1<!-- -->, <!-- -->x2<!-- -->, <!-- -->y2<!-- -->, <!-- -->x3<!-- -->, <!-- -->y3<!-- -->, <!-- -->x4<!-- -->, <!-- -->y4<!-- -->);</span><div class="text-xs">Draws a quadrilateral between four points</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Complex Shapes</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">beginShape() / endShape() / vertex()</span><div class="text-xs">Use beginShape() and endShape() to create more complex shapes. To start a shape, call beginShape(), then call the vertex() command, then call endShape() to stop. By default, it creates an irregular polygon, but you can control that by sending a mode to beginShape().</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">curveVertex()</span><div class="text-xs">Use curveVertex() to create a curved shape. It&#x27;s used in conjunction with the bezierVertex() command.</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">bezierVertex()</span><div class="text-xs">Use bezierVertex() to create a bezier curve. It&#x27;s used in conjunction with the curveVertex() command.</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Colors</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">background<!-- -->(<!-- -->r<!-- -->, <!-- -->g<!-- -->, <!-- -->b<!-- -->);</span><div class="text-xs">Sets the background color of the canvas</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">fill<!-- -->(<!-- -->r<!-- -->, <!-- -->g<!-- -->, <!-- -->b<!-- -->);</span><div class="text-xs">Sets the fill color of the shape</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">noFill</span><div class="text-xs">Removes the fill color of the shape</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">stroke<!-- -->(<!-- -->r<!-- -->, <!-- -->g<!-- -->, <!-- -->b<!-- -->);</span><div class="text-xs">Set the outline color for shapes</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">strokeWeight<!-- -->(<!-- -->thickness<!-- -->);</span><div class="text-xs">Change the thickness of lines and outlines.</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">noStroke</span><div class="text-xs">Removes the outline color of the shape</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">color<!-- -->(<!-- -->r<!-- -->, <!-- -->g<!-- -->, <!-- -->b<!-- -->);</span><div class="text-xs">Store a color in a variable</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">blendColor<!-- -->(<!-- -->c1<!-- -->, <!-- -->c2<!-- -->, <!-- -->mode<!-- -->);</span><div class="text-xs">Blend two colors together</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">lerpColor<!-- -->(<!-- -->c1<!-- -->, <!-- -->c2<!-- -->, <!-- -->amount<!-- -->);</span><div class="text-xs">Interpolate between two colors</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Text</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">text<!-- -->(<!-- -->string<!-- -->, <!-- -->x<!-- -->, <!-- -->y<!-- -->);</span><div class="text-xs">Draws text to the canvas</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">textSize<!-- -->(<!-- -->size<!-- -->);</span><div class="text-xs">Change the size of the text</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">textFont<!-- -->(<!-- -->font<!-- -->, <!-- -->size<!-- -->);</span><div class="text-xs">Change the font of the text</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Transform</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">rotate<!-- -->(<!-- -->angle<!-- -->);</span><div class="text-xs">Rotate shapes by an angle</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">scale<!-- -->(<!-- -->factor<!-- -->);</span><div class="text-xs">Scale shapes by a factor</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">translate<!-- -->(<!-- -->x<!-- -->, <!-- -->y<!-- -->);</span><div class="text-xs">Translates shapes by an offset</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Environment</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">width / height</span><div class="text-xs">The size of the canvas</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">draw = function() {...}</span><div class="text-xs">Called repeatedly during program execution</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Mouse</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseX</span><div class="text-xs">The x-coordinate of the mouse</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseY</span><div class="text-xs">The y-coordinate of the mouse</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">pmouseX</span><div class="text-xs">The previous x-coordinate of the mouse</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">pmouseY</span><div class="text-xs">The previous y-coordinate of the mouse</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseButton</span><div class="text-xs">Which mouse button is pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseIsPressed</span><div class="text-xs">Whether the mouse is pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseClicked() = function() {...}</span><div class="text-xs">Called when mouse is clicked</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mousePressed() = function() {...}</span><div class="text-xs">Called when mouse is pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseReleased() = function() {...}</span><div class="text-xs">Called when mouse is released</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseMoved = function() {...}</span><div class="text-xs">Called when mouse is moved</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseDragged() = function() {...}</span><div class="text-xs">Called when mouse is dragged</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseOver() = function() {...}</span><div class="text-xs">Called when mouse is over</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">mouseOut() = function() {...}</span><div class="text-xs">Called when mouse is out</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Keyboard</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">key</span><div class="text-xs">The value of the key pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">keyCode</span><div class="text-xs">The code of the key pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">keyIsPressed</span><div class="text-xs">Whether a key is currently pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">keyPressed() = function() {...}</span><div class="text-xs">Called when a key is pressed</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">keyReleased() = function() {...}</span><div class="text-xs">Called when a key is released</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">keyTyped() = function() {...}</span><div class="text-xs">Called when a key is typed</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Math</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">random<!-- -->(<!-- -->low<!-- -->, <!-- -->high<!-- -->);</span><div class="text-xs">Generate a random number</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">dist<!-- -->(<!-- -->x1<!-- -->, <!-- -->y1<!-- -->, <!-- -->x2<!-- -->, <!-- -->y2<!-- -->);</span><div class="text-xs">Calculates the distance between two points</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">constrain<!-- -->(<!-- -->value<!-- -->, <!-- -->low<!-- -->, <!-- -->high<!-- -->);</span><div class="text-xs">Constrain value between min and max</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">min<!-- -->(<!-- -->num1<!-- -->, <!-- -->num2<!-- -->);</span><div class="text-xs">Return the minimum of two numbers</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">max<!-- -->(<!-- -->num1<!-- -->, <!-- -->num2<!-- -->);</span><div class="text-xs">Return the maximum of two numbers</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">abs<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Return the absolute value of a number</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">log<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Take the logarithm of a number</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">pow<!-- -->(<!-- -->num<!-- -->, <!-- -->exponent<!-- -->);</span><div class="text-xs">Raise a number to an exponent</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">sq<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Square a number</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">sqrt<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Find the square root of a number</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">round<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Round a number to the nearest whole number</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">ceil<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Return nearest integer of greater/equal value</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">floor<!-- -->(<!-- -->num<!-- -->);</span><div class="text-xs">Return nearest integer of lesser/equal value</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">PVector<!-- -->(<!-- -->x<!-- -->, <!-- -->y<!-- -->);</span><div class="text-xs">An object that describes a 2-dimensional vector</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Trigonometry</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">cos<!-- -->(<!-- -->angle<!-- -->);</span><div class="text-xs">Take the cosine of an angle</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">sin<!-- -->(<!-- -->angle<!-- -->);</span><div class="text-xs">Take the sine of an angle</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">tan<!-- -->(<!-- -->angle<!-- -->);</span><div class="text-xs">Take the tangent of an angle</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Datetime</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">day() / month () / year()</span><div class="text-xs">Current date</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">hour() / minute() / second()</span><div class="text-xs">Current time</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">millis()</span><div class="text-xs">Milliseconds elapsed since program start</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Debug</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">debug(arg1, arg2, ...)</span><div class="text-xs">Print to your browser&#x27;s developer console</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">println(data)</span><div class="text-xs">Print the canvas console</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">print(data)</span><div class="text-xs">Print to the canvas console</div></li></ul></div><div class="py-4 p-4"><h2 class="text-2xl font-bold">Javascript</h2><ul class="grid grid-cols-1 md:grid-cols-2"><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">var fooBar = function() {...}</span><div class="text-xs">Define a new function</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">var array = [0, 1, 2, 3, 4]</span><div class="text-xs">Define a new array</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">if (x &lt; 20) {...}</span><div class="text-xs">Only run code if a certain condition is true</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">for (var i = 0; i &lt; 10; i++) {...}</span><div class="text-xs">Run code a certain number of times</div></li><li class="mt-4 pr-10"><span class="group relative" style="font-family:monospace">while (x &lt; 250) {...}</span><div class="text-xs">Run code while a certain condition is true</div></li></ul></div></div></div></div><div style="display:none" class="m_b0c91715 mantine-Tabs-panel" data-orientation="horizontal" role="tabpanel" id="mantine-Rsvffeja-panel-colors" aria-labelledby="mantine-Rsvffeja-tab-colors"><div class="mx-auto max-w-7xl justify-center items-center"><div class="flex mx-10 pt-5"><div class=""><h2 class="text-2xl font-bold mb-5">Color Picker</h2><div class="react-colorful"><div class="react-colorful__saturation" style="background-color:hsl(0, 100%, 50%)"><div aria-label="Color" aria-valuetext="Saturation 0%, Brightness 100%" class="react-colorful__interactive" tabindex="0" role="slider"><div class="react-colorful__pointer react-colorful__saturation-pointer" style="top:0%;left:0%"><div class="react-colorful__pointer-fill" style="background-color:hsl(0, 0%, 100%)"></div></div></div></div><div class="react-colorful__hue react-colorful__last-control"><div aria-label="Hue" aria-valuenow="0" aria-valuemax="360" aria-valuemin="0" class="react-colorful__interactive" tabindex="0" role="slider"><div class="react-colorful__pointer react-colorful__hue-pointer" style="top:50%;left:0%"><div class="react-colorful__pointer-fill" style="background-color:hsl(0, 100%, 50%)"></div></div></div></div></div></div><div class="p-5 mt-5"><pre>background(<!-- -->255<!-- -->, <!-- -->255<!-- -->, <!-- -->255<!-- -->)</pre><pre>fill(<!-- -->255<!-- -->, <!-- -->255<!-- -->, <!-- -->255<!-- -->)</pre><pre>stroke(<!-- -->255<!-- -->, <!-- -->255<!-- -->, <!-- -->255<!-- -->)</pre></div></div></div></div><div style="display:none" class="m_b0c91715 mantine-Tabs-panel" data-orientation="horizontal" role="tabpanel" id="mantine-Rsvffeja-panel-images" aria-labelledby="mantine-Rsvffeja-tab-images"><div class="mx-auto max-w-7xl justify-center items-center"><div class="flex mx-10 pt-5"><div class=""><h2 class="text-2xl font-bold mb-5">Images</h2><p>Include images from the internet in your program using<!-- --> <code>getImage(&quot;IMAGE_URL&quot;)</code>or use one of the example images below. Example images are from Khan Academy programming sample image library.</p><h3 class="mt-5 text-xl">Example Code</h3><pre>var img = getImage(&quot;cute/GrassBlock&quot;); 
+  draw = function()
+  {
+    image(img, 50, 50);
+  }</pre><h3 class="mt-5 text-xl">Example Images</h3><div class="grid grid-cols-2 gap-4"><div class="p-2"><img src="../../../images/avatars/cs-hopper-cool.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/cs-hopper-cool&quot;)</pre></div><div class="p-2"><img src="../../../images/avatars/marcimus.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/marcimus&quot;)</pre></div><div class="p-2"><img src="../../../images/avatars/mr-pants.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/mr-pants&quot;)</pre></div><div class="p-2"><img src="../../../images/avatars/mr-pink.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/mr-pink&quot;)</pre></div> <div class="p-2"><img src="../../../images/avatars/old-spice-man.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/old-spice-man&quot;)</pre></div> <div class="p-2"><img src="../../../images/avatars/orange-juice-squid.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/orange-juice-squid&quot;)</pre></div> <div class="p-2"><img src="../../../images/avatars/purple-pi.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/purple-pi&quot;)</pre></div> <div class="p-2"><img src="../../../images/avatars/robot_female_1.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/robot_female_1&quot;)</pre></div> <div class="p-2"><img src="../../../images/avatars/robot_male_1.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/robot_male_1&quot;)</pre></div><div class="p-2"><img src="../../../images/avatars/spunky-sam.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;avatars/spunky-sam&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/CharacterBoy.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/CharacterBoy&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/CharacterHornGirl.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/CharacterHornGirl&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/CharacterCatGirl.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/CharacterCatGirl&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/GemBlue.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/GemBlue&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/GemGreen.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/GemGreen&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/GemOrange.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/GemOrange&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/GrassBlock.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/GrassBlock&quot;)</pre></div><div class="p-2"><img src="../../../images/cute/Key.png" alt="Example Image 1" class="rounded-lg mx-auto" width="50"/><pre>getImage(&quot;cute/Key&quot;)</pre></div></div></div></div></div></div><div style="display:none" class="m_b0c91715 mantine-Tabs-panel" data-orientation="horizontal" role="tabpanel" id="mantine-Rsvffeja-panel-help" aria-labelledby="mantine-Rsvffeja-tab-help"><div class="p-5 "><h1 class="text-xl font-bold">AI Tutor</h1><p class="bg-blue-100 p-3 my-4">AI Tutor can read your code, answer questions about it, and generate short snippets of example code. Since AI can occasionally make mistakes, it is important to double-check the output it generates.</p><div class="max-h-[50vh] overflow-y-scroll overflow-x-scroll flex flex-col-reverse"></div><div class="mt-1 flex"><input type="text" class="w-full p-2 border rounded" placeholder="Type a message..." value=""/><button class="p-3 bg-blue-500 text-white rounded hover:bg-blue-600">Send</button></div></div></div><div style="display:none" class="m_b0c91715 mantine-Tabs-panel" data-orientation="horizontal" role="tabpanel" id="mantine-Rsvffeja-panel-share" aria-labelledby="mantine-Rsvffeja-tab-share"><div class="flex justify-between m5-2"><div class="mr-5 p-5 bg-gray-100 w-1/2"><h3 class="text-center">Share a link</h3><p class="p-5">Copy this link to include on your assignment submission or share with a friend:<!-- --> </p><input type="text" class="mx-5 p-2 rounded text-lg w-[90%]" readOnly="" value="https://code-lab.app/program/d5f61397-cc4f-4d66-b367-ddf9c4a0f09a"/><button class="px-4 py-2 ml-5 mt-4 bg-blue-500 text-white rounded hover:bg-blue-600">Copy to Clipboard</button></div><div class="p-5 bg-gray-100 w-1/2"><h3 class="text-center">Embed your program</h3><p class="p-5">Paste this code snippet in your html to embed your program on your webpage:</p><p class="px-5 max-w-[800px] font-mono">&lt;iframe src=&quot;https://code-lab.app/program/d5f61397-cc4f-4d66-b367-ddf9c4a0f09a/embed&quot; style=&quot;min-height: 500px; min-width: 400px; border: none; &quot;&gt;&lt;/iframe&gt;</p><button class="px-4 py-2 mt-4 bg-blue-500 text-white rounded hover:bg-blue-600">Copy to Clipboard</button></div></div></div></div></div></main><script src="/_next/static/chunks/webpack-adb68c23852e178f.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0]);self.__next_f.push([2,null])</script><script>self.__next_f.push([1,"1:HL[\"/_next/static/media/a34f9d1faa5f3315-s.p.woff2\",\"font\",{\"crossOrigin\":\"\",\"type\":\"font/woff2\"}]\n2:HL[\"/_next/static/css/7e6e61792cb862c1.css\",\"style\"]\n3:HL[\"/_next/static/css/a8e754ce85962fa5.css\",\"style\"]\n"])</script><script>self.__next_f.push([1,"4:I[95751,[],\"\"]\n7:I[39275,[],\"\"]\n9:I[61343,[],\"\"]\na:I[72581,[\"479\",\"static/chunks/479-dc76c5e3a922bb72.js\",\"230\",\"static/chunks/230-de6b5f63f4871ccc.js\",\"328\",\"static/chunks/328-0405c0400fd3f0bf.js\",\"296\",\"static/chunks/296-15581b99845975e6.js\",\"185\",\"static/chunks/app/layout-87822a99973887e0.js\"],\"ColorSchemeScript\"]\nb:I[63941,[\"479\",\"static/chunks/479-dc76c5e3a922bb72.js\",\"230\",\"static/chunks/230-de6b5f63f4871ccc.js\",\"328\",\"static/chunks/328-0405c0400fd3f0bf.js\",\"296\",\"static/chunks/296-15581b99845975e6.js\",\"185\",\"static/chunks/app/layout-87822a99973887e0.js\"],\"MantineProvider\"]\nd:I[76130,[],\"\"]\n8:[\"program_id\",\"d5f61397-cc4f-4d66-b367-ddf9c4a0f09a\",\"d\"]\ne:[]\n"])</script><script>self.__next_f.push([1,"0:[[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/7e6e61792cb862c1.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}],[\"$\",\"link\",\"1\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/a8e754ce85962fa5.css\",\"precedence\":\"next\",\"crossOrigin\":\"$undefined\"}]],[\"$\",\"$L4\",null,{\"buildId\":\"mOxqVG1j1eeXEm_rbHG1w\",\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/program/d5f61397-cc4f-4d66-b367-ddf9c4a0f09a\",\"initialTree\":[\"\",{\"children\":[\"program\",{\"children\":[[\"program_id\",\"d5f61397-cc4f-4d66-b367-ddf9c4a0f09a\",\"d\"],{\"children\":[\"__PAGE__\",{}]}]}]},\"$undefined\",\"$undefined\",true],\"initialSeedData\":[\"\",{\"children\":[\"program\",{\"children\":[[\"program_id\",\"d5f61397-cc4f-4d66-b367-ddf9c4a0f09a\",\"d\"],{\"children\":[\"__PAGE__\",{},[[\"$L5\",\"$L6\"],null],null]},[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"program\",\"children\",\"$8\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"program\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"styles\":null}],null]},[[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[\"$\",\"$La\",null,{}]}],[\"$\",\"body\",null,{\"className\":\"__className_36bd41\",\"children\":[\" \",[\"$\",\"$Lb\",null,{\"children\":[\"$\",\"$L7\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"errorScripts\":\"$undefined\",\"template\":[\"$\",\"$L9\",null,{}],\"templateStyles\":\"$undefined\",\"templateScripts\":\"$undefined\",\"notFound\":[[\"$\",\"title\",null,{\"children\":\"404: This page could not be found.\"}],[\"$\",\"div\",null,{\"style\":{\"fontFamily\":\"system-ui,\\\"Segoe UI\\\",Roboto,Helvetica,Arial,sans-serif,\\\"Apple Color Emoji\\\",\\\"Segoe UI Emoji\\\"\",\"height\":\"100vh\",\"textAlign\":\"center\",\"display\":\"flex\",\"flexDirection\":\"column\",\"alignItems\":\"center\",\"justifyContent\":\"center\"},\"children\":[\"$\",\"div\",null,{\"children\":[[\"$\",\"style\",null,{\"dangerouslySetInnerHTML\":{\"__html\":\"body{color:#000;background:#fff;margin:0}.next-error-h1{border-right:1px solid rgba(0,0,0,.3)}@media (prefers-color-scheme:dark){body{color:#fff;background:#000}.next-error-h1{border-right:1px solid rgba(255,255,255,.3)}}\"}}],[\"$\",\"h1\",null,{\"className\":\"next-error-h1\",\"style\":{\"display\":\"inline-block\",\"margin\":\"0 20px 0 0\",\"padding\":\"0 23px 0 0\",\"fontSize\":24,\"fontWeight\":500,\"verticalAlign\":\"top\",\"lineHeight\":\"49px\"},\"children\":\"404\"}],[\"$\",\"div\",null,{\"style\":{\"display\":\"inline-block\"},\"children\":[\"$\",\"h2\",null,{\"style\":{\"fontSize\":14,\"fontWeight\":400,\"lineHeight\":\"49px\",\"margin\":0},\"children\":\"This page could not be found.\"}]}]]}]}]],\"notFoundStyles\":[],\"styles\":null}]}]]}]]}],null],null],\"couldBeIntercepted\":false,\"initialHead\":[false,\"$Lc\"],\"globalErrorComponent\":\"$d\",\"missingSlots\":\"$We\"}]]\n"])</script><script>self.__next_f.push([1,"c:[[\"$\",\"meta\",\"0\",{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],[\"$\",\"meta\",\"1\",{\"charSet\":\"utf-8\"}],[\"$\",\"title\",\"2\",{\"children\":\"CodeLab\"}],[\"$\",\"meta\",\"3\",{\"name\":\"description\",\"content\":\"Javascript Programming Environment\"}],[\"$\",\"meta\",\"4\",{\"name\":\"next-size-adjust\"}]]\n5:null\n"])</script><script>self.__next_f.push([1,"f:I[231,[\"240\",\"static/chunks/53c13509-8ab34b474813b25f.js\",\"401\",\"static/chunks/363642f4-5d2917c87af282bd.js\",\"231\",\"static/chunks/231-5191473dc77ac7c0.js\",\"479\",\"static/chunks/479-dc76c5e3a922bb72.js\",\"230\",\"static/chunks/230-de6b5f63f4871ccc.js\",\"682\",\"static/chunks/682-ce3782fd5e3ed47f.js\",\"328\",\"static/chunks/328-0405c0400fd3f0bf.js\",\"841\",\"static/chunks/841-91c8a0f824bae3f4.js\",\"826\",\"static/chunks/app/program/%5Bprogram_id%5D/page-e7043e3a8c29fec6.js\"],\"\"]\n10:I[61841,[\"240\",\"static/chunks/53c13509-8ab34b474813b25f.js\",\"401\",\"static/chunks/363642f4-5d2917c87af282bd.js\",\"231\",\"static/chunks/231-5191473dc77ac7c0.js\",\"479\",\"static/chunks/479-dc76c5e3a922bb72.js\",\"230\",\"static/chunks/230-de6b5f63f4871ccc.js\",\"682\",\"static/chunks/682-ce3782fd5e3ed47f.js\",\"328\",\"static/chunks/328-0405c0400fd3f0bf.js\",\"841\",\"static/chunks/841-91c8a0f824bae3f4.js\",\"826\",\"static/chunks/app/program/%5Bprogram_id%5D/page-e7043e3a8c29fec6.js\"],\"default\"]\n15:I[13361,[\"240\",\"static/chunks/53c13509-8ab34b474813b25f.js\",\"401\",\"static/chunks/363642f4-5d2917c87af282bd.js\",\"231\",\"static/chunks/231-5191473dc77ac7c0.js\",\"479\",\"static/chunks/479-dc76c5e3a922bb72.js\",\"230\",\"static/chunks/230-de6b5f63f4871ccc.js\",\"682\",\"static/chunks/682-ce3782fd5e3ed47f.js\",\"328\",\"static/chunks/328-0405c0400fd3f0bf.js\",\"841\",\"static/chunks/841-91c8a0f824bae3f4.js\",\"826\",\"static/chunks/app/program/%5Bprogram_id%5D/page-e7043e3a8c29fec6.js\"],\"default\"]\n11:T4b2,noStroke();\nfill(255,224,189);\nellipse(100,100,83,100); //head\nfill(255,255,255);\n\n\n//hair\nfill(53,43,0);  //color of hair\nquad(50,100,63,68,90,50,70,97);  //left hair\nquad(150,100,140,70,115,50,135,97);  //right hair\nellipse(100,68,69,36);  //top of hair\n\n\n//eyes\nfill(0, 53, 82);  //eye color blue\nellipse(88,100,7,7);  //left eye\nellipse(117,100,7,7);  //right eye\n\n\n//nose\nstroke(53, 43, 0); // color of nose\nstrokeWeight(2);\nline(100, 100, 110, 105); // horizontal line of nose pointing right\nline(110, 105, 100, 110); // diagonal line forming the half triangle\n\n\n//mouth\nstroke(0); //mouth color\nstrokeWeight(2"])</script><script>self.__next_f.push([1,");\nline(85, 125, 115, 125);\n\n\n//body\nfill(0, 0, 0); // Skin color\nrect(70, 150, 60, 80); // body\n\n//letters in shirt\nfill(255,255,255); // color of letters in shirt\ntextSize(25);\ntext(\"AH\", 82, 200); // Position the text on the body\n\n\n//hat\nfill(0); //color of hat\nellipse(100, 79, 90, 30); //brim of  hat\nellipse(100,65,70,50);  //top of hair\nfill(255,255,255); // color of letters on hat\ntextSize(25);\ntext(\"A\", 90, 75); // Position the text on the hat\n\n\n//ears\nfill(255, 224, 189); // Same color as head\nellipse(59, 105, 10, 20); // Left ear\nellipse(140, 105, 10, 20); // Right ear\n\n13:T4b2,noStroke();\nfill(255,224,189);\nellipse(100,100,83,100); //head\nfill(255,255,255);\n\n\n//hair\nfill(53,43,0);  //color of hair\nquad(50,100,63,68,90,50,70,97);  //left hair\nquad(150,100,140,70,115,50,135,97);  //right hair\nellipse(100,68,69,36);  //top of hair\n\n\n//eyes\nfill(0, 53, 82);  //eye color blue\nellipse(88,100,7,7);  //left eye\nellipse(117,100,7,7);  //right eye\n\n\n//nose\nstroke(53, 43, 0); // color of nose\nstrokeWeight(2);\nline(100, 100, 110, 105); // horizontal line of nose pointing right\nline(110, 105, 100, 110); // diagonal line forming the half triangle\n\n\n//mouth\nstroke(0); //mouth color\nstrokeWeight(2);\nline(85, 125, 115, 125);\n\n\n//body\nfill(0, 0, 0); // Skin color\nrect(70, 150, 60, 80); // body\n\n//letters in shirt\nfill(255,255,255); // color of letters in shirt\ntextSize(25);\ntext(\"AH\", 82, 200); // Position the text on the body\n\n\n//hat\nfill(0); //color of hat\nellipse(100, 79, 90, 30); //brim of  hat\nellipse(100,65,70,50);  //top of hair\nfill(255,255,255); // color of letters on hat\ntextSize(25);\ntext(\"A\", 90, 75); // Position the text on the hat\n\n\n//ears\nfill(255, 224, 189); // Same color as head\nellipse(59, 105, 10, 20); // Left ear\nellipse(140, 105, 10, 20); // Right ear\n\n12:{\"id\":506783,\"content\":\"$13\",\"created\":\"$D2024-09-22T19:32:57.169Z\",\"authorId\":2,\"programId\":1919}\n14:{\"id\":2,\"email\":\"ahernandez2024@uri.edu\",\"name\":\"Adrian Hernandez\",\"password\":null}\n"])</script><script>self.__next_f.push([1,"6:[\"$\",\"main\",null,{\"className\":\"\",\"children\":[[[\"$\",\"nav\",null,{\"className\":\"bg-gray-800 fixed top-0 left-0 w-full z-10\",\"children\":[false,[\"$\",\"div\",null,{\"className\":\"md:hidden xl:hidden bg-red-500 text-white\",\"children\":[\"$\",\"p\",null,{\"children\":\"CodeLab is not currently supported on mobile devices or small screens.\"}]}],[\"$\",\"div\",null,{\"className\":\"max-w-7xl mx-auto px-4 sm:px-6 lg:px-8\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex items-center justify-between h-16\",\"children\":[[\"$\",\"div\",null,{\"className\":\"flex items-center\",\"children\":[[\"$\",\"div\",null,{\"className\":\"mr-4\",\"children\":[\"$\",\"$Lf\",null,{\"className\":\"text-white font-bold text-xl\",\"href\":\"../../../\",\"children\":\"CodeLab\"}]}],[[\"$\",\"div\",null,{\"className\":\"\",\"children\":[\"$\",\"$Lf\",null,{\"href\":\"/lessons\",\"children\":[\"$\",\"span\",null,{\"className\":\"cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium \",\"children\":\"Lessons\"}]}]}],[\"$\",\"div\",null,{\"className\":\"\",\"children\":[\"$\",\"$Lf\",null,{\"href\":\"/projects\",\"children\":[\"$\",\"span\",null,{\"className\":\"cursor-pointer text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium bg-gray-700\",\"children\":\"My Projects\"}]}]}]]]}],[\"$\",\"div\",null,{\"className\":\"sm:hidden\",\"children\":[\"$\",\"div\",null,{\"className\":\"ml-4 flex justify-between items-baseline space-x-4\",\"children\":[[\"$\",\"p\",null,{\"className\":\"text-white\",\"children\":[\"Signed in as \",[\"$\",\"b\",null,{\"children\":\"Adrian Hernandez\"}]]}],[\"$\",\"a\",null,{\"href\":\"../../../../../api/users/signout\",\"className\":\"text-gray-300 hover:bg-gray-700 hover:text-white px-3 py-2 rounded-md text-sm font-medium\",\"children\":\"Logout\"}]]}]}]]}]}]]}],[\"$\",\"div\",null,{\"className\":\"mb-[64px]\"}]],[\"$\",\"$L10\",null,{\"program\":{\"id\":1919,\"uuid\":\"d5f61397-cc4f-4d66-b367-ddf9c4a0f09a\",\"name\":\"Hernandez_avatar\",\"deleted\":false,\"published\":true,\"hidden\":false,\"lesson\":null,\"authorId\":2,\"author\":{\"id\":2,\"email\":\"ahernandez2024@uri.edu\",\"name\":\"Adrian Hernandez\",\"password\":null},\"revisions\":[{\"id\":506783,\"content\":\"$11\",\"created\":\"$D2024-09-22T19:32:57.169Z\",\"authorId\":2,\"programId\":1919}]},\"revision\":\"$12\",\"author\":\"$14\",\"mode\":\"project\"}],[\"$\",\"$L15\",null,{\"tutor_enabled\":true,\"uuid\":\"d5f61397-cc4f-4d66-b367-ddf9c4a0f09a\",\"id\":1919}]]}]\n"])</script></body></html>
